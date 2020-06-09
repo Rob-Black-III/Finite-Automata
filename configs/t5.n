@@ -1,0 +1,13 @@
+# File: t5
+# this NFA recognizes only the empty string and has empty Sigma, hence
+# empty transitions
+# Q - the set of states
+q1
+# Sigma - the alphabet
+@
+# q_0 - the start state
+q1
+# F - the set of accept states
+q1
+# delta - the transition function
+# no transitions

@@ -1,0 +1,13 @@
+# File: t8
+# this NFA recognizes the empty language, that is, NO strings and has
+# an alphabet
+# Q - the set of states
+q1
+# Sigma - the alphabet
+a b
+# q_0 - the start state
+q1
+# F - the set of accept states
+@
+# delta - the transition function
+# no transitions

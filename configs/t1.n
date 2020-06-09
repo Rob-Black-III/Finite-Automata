@@ -1,0 +1,19 @@
+# File: t1
+# NFA is Sipser 1.42
+# this NFA recognizes strings like "", "a", "babba", that is,
+# empty string or string with 
+# any number of 'a's or at least one 'b' and and ending in an 'a'   
+# Q - the set of states
+1 2 3
+# Sigma - the alphabet
+a b
+# q_0 - the start state
+1
+# F - the set of accept states
+1
+# delta - the transition function
+1 b 2
+1 . 3
+2 a 2 3
+2 b 3
+3 a 1

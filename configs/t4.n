@@ -1,0 +1,23 @@
+# File: t4
+# This NFA recognizes (a U b)*aba  
+# Based on Sipser Figure 1.59
+# Q - the set of states
+1 2 3 4 5 6 7 8 9 10 11 12
+# Sigma - the alphabet
+a b 
+# q_0 - the start state
+1
+# F - the set of accept states
+12
+# delta - the transition function
+1 . 2 7
+2 . 3 4
+3 a 5
+4 b 6
+5 . 2 7
+6 . 2 7
+7 a 8
+8 . 9
+9 b 10
+10 . 11
+11 a 12

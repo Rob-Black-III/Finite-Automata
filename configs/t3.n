@@ -1,0 +1,15 @@
+# File: t3
+# This NFA recognizes (aaa)*
+# Q - the set of states
+1 2 3 4
+# Sigma - the alphabet
+a b c
+# q_0 - the start state
+1
+# F - the set of accept states
+1 4
+# delta - the transition function
+1 a 2
+2 a 3
+3 a 4
+4 . 1
